@@ -51,7 +51,7 @@ class ListaEnlazada{
         	}
     	}	
 		
-		void eliminar(int indice)
+		void eliminar(T data_)
 		{
 		    nodo<T> *aux = head;
 		    nodo<T> *aux1 = head->siguiente;
@@ -87,7 +87,7 @@ class ListaEnlazada{
 		 
 		    while (aux) {
 		        if (aux->data == data_) {
-		            cout << "El dato se encuentra en la posición: " << cont << endl;
+		            cout << "El dato se encuentra en la posiciÃ³n: " << cont << endl;
 		            cont1++;
 		        }
 		        aux = aux->siguiente;
