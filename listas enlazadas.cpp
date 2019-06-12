@@ -117,20 +117,14 @@ class ListaEnlazada{
 
 int main()
 {
-	int elm;
-	int bus;
 	ListaEnlazada<int>listaEnlazada_1;
 	listaEnlazada_1.agregar(4);
 	listaEnlazada_1.agregar(9);
 	listaEnlazada_1.agregar(10);
 	listaEnlazada_1.agregar(25);
 	listaEnlazada_1.imprimir();
-	cout<<"Dato que desea eliminar: "<<endl;
-	cin>>elm;
-	listaEnlazada_1.eliminar(elm);
-	cout<<"Dato que se desea buscar: "<<endl;
-	cin>>bus;
-	listaEnlazada_1.buscar(bus);
+        listaEnlazada_1.eliminar(4);
+	listaEnlazada_1.buscar(10);t
 	
 	
 
